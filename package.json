@@ -1,0 +1,28 @@
+{
+    "author": "Elving Rodriguez",
+    "name": "blimp",
+    "description": "Node Library for the Blimp API.",
+    "version": "0.0.1",
+    "main": "./index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GetBlimp/blimp-node.git"
+    },
+    "keywords": [
+        "blimp",
+        "api",
+        "project management",
+        "awesome"
+    ],
+    "engines": {
+        "node": "~0.6.10 || 0.8 || 0.9"
+    },
+    "dependencies" : {
+        "request": "2.14.0",
+        "lodash": "1.0.1"
+    },
+    "devDependencies" : {
+        "mocha": ">=1.6.0",
+        "should": ">=1.2.0"
+    },
+}
